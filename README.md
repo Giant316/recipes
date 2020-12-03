@@ -23,7 +23,7 @@ The workaround I used is to add `headers` and `cookies` information to the `scra
 
 1. Nagivate through the developer tool for “View Source Page” of the browser to look for `XHR` in `Network` 
 2. Click on the “Show more” button to see the request generated, in this case `glyka?page=2` xhr file is generated but not JSON object so I export the request in `cURL` format 
-   ![cURL code](../blob/master/cURL code.png?raw=true)
+   ![cURL code](../main/cURL.png?raw=true)
 3. Then I translate the `cURL` command into a Scrpay request by using [curl2scrapy](https://michael-shub.github.io/curl2scrapy/) and incorporate the cookies and headers information in my code
 
 ## Output the extracted info to CSV
